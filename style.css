@@ -1,0 +1,277 @@
+
+
+body{
+    background-image: radial-gradient(circle, #9da1fe, #979bfe, #9195fe, #8a8ffd, #8489fd);
+    color: white;
+    font-family: "Ubuntu", monospace;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none;
+
+}
+
+.background-design{
+    color: rgba(255, 255, 255, 0.17);
+    position: absolute;
+    font-size: 25px;
+    width: 100px;
+    top: 55px;
+    right: 37%;
+
+
+}
+
+.container{
+    background-color: #252a3b;
+    border-radius: 25px;
+    width: 55vh;
+    height: 85vh;
+
+}
+
+.steps-label{
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+.result{
+    font-family: "Ubuntu", monospace;
+    text-align: right;
+    border: none;
+    background-color: rgba(63, 69, 96, 0.22);
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 8vh;
+    color: white;
+    font-size: 45px;
+    width: 43vh;
+}
+
+
+.result-label {
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px;
+
+
+}
+
+.buttons-screen{
+    position: relative;
+    bottom: 135px;
+}
+
+
+.equal_sign{
+    color: #aeb5c7;
+    margin-right: 20px;
+    font-size: 40px;
+}
+
+
+
+button{
+    font-family: "Ubuntu", monospace;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+
+.all-buttons{
+    background-color: rgba(63, 69, 96, 0.4);
+    border-radius: 25px;
+
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+
+
+.num, .side, .top{
+    background-color: #555b7a;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 75px;
+    height: 60px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+
+
+}
+
+.zero{
+    width: 165px;
+}
+
+.buttons-num{
+    width: 260px;
+}
+
+.buttons-top{
+    width: 350px;
+}
+
+.top, .side{
+    background-color: #787EE3;
+}
+
+
+
+.buttons-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.lower{
+    display: flex;
+}
+
+
+
+.equals:hover{
+    background-color: #75c975;
+    transition: all 0.2s;
+
+}
+
+.delete:hover{
+    background-color: #f96d6d;
+    transition: all 0.2s;
+
+}
+
+.clear:hover{
+    background-color: whitesmoke;
+    color: #8a8ffd;
+    transition: all 0.2s;
+
+}
+
+.sign-side{
+    text-align: center;
+    padding: 1px;
+    height: 45px;
+}
+
+.equals{
+    height: 15vh;
+}
+
+.sign:hover{
+    background-color: #595ca1;
+    transition: all 0.4s;
+
+}
+
+.num:hover{
+    background-color: #838cbb;
+    transition: all 0.4s;
+}
+
+span{
+    color: #252a3b;
+}
+
+
+.extra-buttons{
+    position: relative;
+    bottom: 100px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.extra{
+    background-color: #595ca1;
+    font-size: 30px;
+    width: 75px;
+    text-align: center;
+
+    margin-right: 10px;
+    padding: 1px;
+    height: 35px;
+}
+
+.extra:hover{
+    background-color: #8a8ffd;
+}
+
+hr{
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+
+.history-screen{
+    display: none;
+    position: absolute;
+    top: 42px;
+
+    background-color: #383a67;
+    border-radius: 25px;
+    width: 55vh;
+    height: 85vh;
+    box-shadow: 0 2px 4px rgba(24, 24, 24, 0.2);
+
+
+}
+.up{
+    color: white;
+    text-align: center;
+    height: 37px;
+    width: 100%;
+    border: none;
+    background-color: #666ab9;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+
+.up:hover{
+    background-color: #515493;
+
+}
+
+
+.logs::-webkit-scrollbar {
+    display: none;
+}
+
+.logs{
+
+    max-height: 80vh;
+    overflow-y: scroll;
+
+    position: relative;
+    margin-left: -10px;
+}
+
+
+.logs-items{
+    border-radius: 10px;
+    margin-bottom: 5px;
+    list-style: none;
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 5px;
+    width: 45vh;
+}

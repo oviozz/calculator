@@ -1,0 +1,115 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f9e688c9c4.js" crossorigin="anonymous"></script>    <title>Calculator</title>
+
+<body>
+    <label class="background-design">2*15 % <span>-</span>2 / 3 + 21.0<span>-</span>9.0 + 2 * 4 * 14 & 2 * 12</label>
+    <div class="container">
+
+        <div class="top-screen">
+
+            <div class="steps-label">
+                <label class="steps"><i class="fa-solid fa-clock-rotate-left"></i></label>
+            </div>
+
+            <div class="result-label">
+                <h2 class="equal_sign">=</h2>
+                <input type="text" class="result">
+            </div>
+
+        </div>
+
+        <div class="extra-buttons all-buttons">
+            <button id="pi" class="top extra">π</i></button>
+            <button id="sqrt" class="top extra">√</button>
+            <button id="^" class="top extra">^</button>
+            <button id="!" class="top extra">!</button>
+
+
+        </div>
+
+        <div class="buttons-screen">
+
+            <div class="all-buttons">
+                <div class="buttons-top">
+                    <button id="clear" class="top clear">AC</button>
+                    <button id="%" class="top sign">%</button>
+                    <button id="÷" class="top sign">÷</button>
+                    <button id="del" class="top delete"> <i class="fa-solid fa-delete-left"></i> </button>
+                </div>
+
+                <div class="lower">
+                    <div class="buttons-num">
+                        <button id="7" class="num">7</button>
+                        <button id="8" class="num">8</button>
+                        <button id="9" class="num">9</button>
+                        <button id="4" class="num">4</button>
+                        <button id="5" class="num">5</button>
+                        <button id="6" class="num">6</button>
+                        <button id="1" class="num">1</button>
+                        <button id="2" class="num">2</button>
+                        <button id="3" class="num">3</button>
+                        <button id="0" class="num zero">0</button>
+                        <button id="." class="num">.</button>
+
+                    </div>
+
+                    <div class="buttons-side">
+                        <button id="+" class="side sign sign-side">+</button>
+                        <button id="×" class="side sign sign-side">×</button>
+                        <button id="-" class="side sign sign-side">–</button>
+                        <button id="=" class="side equals">=</button>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="history-screen">
+
+            <div class="logs">
+                <ul>
+                    <li class="logs-items">2 * 3 + 4 = 24</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 3 + 4 = 42</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+                    <li class="logs-items">2 * 3 + 4 = 24</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 3 + 4 = 42</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+                    <li class="logs-items">2 * 3 + 4 = 24</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 3 + 4 = 42</li>
+                    <li class="logs-items">2/3 + 24/4 * 3 + 4 = 42</li>
+                    <li class="logs-items">2 * 23 + 4 = 21</li>
+
+                </ul>
+            </div>
+
+            <button class="up"><i class="fa-solid fa-arrow-up"></i></button>
+
+        </div>
+
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
