@@ -1,6 +1,4 @@
 
-
-
 const label = document.querySelector('.result')
 const logscreen = document.querySelector('.history-screen')
 
@@ -67,8 +65,6 @@ document.querySelector('.equals').addEventListener
 
 })
 
-
-
 document.querySelector('#log-icon').addEventListener('click', () => {
     logscreen.style.display = 'block';
 })
@@ -78,4 +74,9 @@ document.querySelector('.up').addEventListener('click', () =>{
 })
 
 
-
+document.querySelector('.calculator-screen').addEventListener('click', () => {
+    console.log('working')
+    if (window.getComputedStyle(logscreen).display === 'block'){
+        logscreen.style.display = 'none'
+    }
+})
