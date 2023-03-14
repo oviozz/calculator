@@ -1,6 +1,7 @@
 
 
 
+
 body{
     background-image: radial-gradient(circle, #9da1fe, #979bfe, #9195fe, #8a8ffd, #8489fd);
     color: white;
@@ -20,7 +21,7 @@ body{
 }
 
 .background-design{
-    color: rgba(255, 255, 255, 0.17);
+    color: rgba(255, 255, 255, 0.1);
     position: absolute;
     font-size: 25px;
     width: 100px;
@@ -241,7 +242,6 @@ hr{
     border-radius: 25px;
     width: 55vh;
     height: 30vh;
-    box-shadow: 0 2px 4px rgba(24, 24, 24, 0.2);
 
 }
 
@@ -254,11 +254,13 @@ hr{
     width: 100%;
     border: none;
     background-color: #666ab9;
+
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 
-}
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.3);
 
+}
 
 
 .up:hover{
@@ -280,10 +282,11 @@ hr{
     padding-top: 15px;
     padding-left: 30px;
     margin-left: 0px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 
     background-color: #383a67;
+
 }
 
 
@@ -297,5 +300,3 @@ hr{
     width: 45vh;
 
 }
-
-
